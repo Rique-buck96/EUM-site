@@ -954,7 +954,7 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: url(../images/partners/Fluor_construction_site_Shuaiba,_Kuwait.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -976,7 +976,7 @@ a.accordion-toggle  i{
 
 .partners ul li{
   display: inline-block;
-  float: left;
+  float: center;
   width: 20%;
 }
 
@@ -2529,9 +2529,3 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
-
-
-
-
-
-
