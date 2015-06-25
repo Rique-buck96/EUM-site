@@ -955,6 +955,9 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
+#clients {
+   margin-top: -40px;
+}
 #partner {
   background: url(../images/partners/Fluor_construction_site_Shuaiba,_Kuwait.png) 50% 50% no-repeat;
   background-size: cover;
