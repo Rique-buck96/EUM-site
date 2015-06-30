@@ -1585,14 +1585,21 @@ padding-bottom: 30px;
     text-align: left;
 }
 
-#Summary {
-    background: #f5f5f5;
+#Portfolio {
+ margin-bottom: -90px;
 }
 
+.solution-text{
+ margin-bottom: 40px;
+}
+.solution {
+ background: #f5f5f5;
+   padding: 40px;
+}
 .solution-icon{
- width: 96px;
+ width: 64px;
     height: auto;
-    margin: 30px;
+    margin: 20px;
 }
 
 .tab-buttons > li {
