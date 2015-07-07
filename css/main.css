@@ -1650,6 +1650,402 @@ padding-bottom: 30px;
   padding:0;
 }
 
+
+.ECM-icon {
+    width: 300px;
+    height: auto;
+}
+/*************************
+********* Solutions ********
+**************************/
+.brochure {
+    font-size: 18px;
+}
+
+#Datum360, #KBC, #Mfiles {
+ background: #f5f5f5;
+}
+
+.para{
+ margin-bottom: 30px;
+}
+
+#KBC h2, #ASM h2,  {
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    color: #4e4e4e;
+}
+
+#Mfiles h2{
+    color: #4e4e4e;
+}
+#ASM h1{
+ color: #4e4e4e;
+font-size: 55px;
+}
+
+#Mfiles {
+  position: relative;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+#Mfiles .carousel .carousel-content {
+  margin-top: 150px;
+}
+
+#Mfiles .carousel .slide-margin{
+  margin-top: 140px;
+}
+
+#Mfiles .carousel h2 {
+  color: #fff;
+}
+
+#Mfiles .carousel .btn-slide {
+  padding: 8px 20px;
+  background: #4495b8;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+#Mfiles .carousel .btn-slide:hover{
+  background: #edda5c;
+  color: #000;
+}
+
+#Mfiles .carousel .slider-img{
+  text-align: right;
+  position: absolute;
+}
+
+
+#Mfiles .carousel .item {
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 800px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
+
+#Mfiles .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+
+#Mfiles .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+
+#Mfiles .prev,
+#Mfiles .next {
+  position: absolute;
+  top: 50%;
+  background-color: #4495b8;
+  color: #fff;
+  display: inline-block;
+  margin-top: -25px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 5;
+}
+
+#Mfiles .prev:hover,
+#Mfiles .next:hover {
+  background-color: #000;
+}
+
+#Mfiles .prev {
+  left: 10px;
+}
+
+#Mfiles .next {
+  right: 10px;
+}
+
+#Mfiles .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 15px 0 0;
+  position: relative;
+}
+
+#Mfiles .carousel-indicators li:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #FFF;
+  left: -3px;
+  top: -3px;
+}
+
+#Mfiles .carousel-indicators .active{
+  width: 20px;
+  height: 20px;
+  background-color: #edda5c;
+   margin: 0 15px 0 0;
+   border: 1px solid #edda5c;
+   position: relative;
+}
+
+#Mfiles .carousel-indicators .active:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #edda5c;
+  border: 1px solid #edda5c;
+  left: -3px;
+  top: -3px;
+}
+
+#Mfiles .active .animation.animated-item-1 {
+  -webkit-animation: fadeInUp 300ms linear 300ms both;
+  -moz-animation: fadeInUp 300ms linear 300ms both;
+  -o-animation: fadeInUp 300ms linear 300ms both;
+  -ms-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+
+#Mfiles .active .animation.animated-item-2 {
+  -webkit-animation: fadeInUp 300ms linear 600ms both;
+  -moz-animation: fadeInUp 300ms linear 600ms both;
+  -o-animation: fadeInUp 300ms linear 600ms both;
+  -ms-animation: fadeInUp 300ms linear 600ms both;
+  animation: fadeInUp 300ms linear 600ms both;
+}
+
+#Mfiles .active .animation.animated-item-3 {
+  -webkit-animation: fadeInUp 300ms linear 900ms both;
+  -moz-animation: fadeInUp 300ms linear 900ms both;
+  -o-animation: fadeInUp 300ms linear 900ms both;
+  -ms-animation: fadeInUp 300ms linear 900ms both;
+  animation: fadeInUp 300ms linear 900ms both;
+}
+
+#Mfiles .active .animation.animated-item-4 {
+  -webkit-animation: fadeInUp 300ms linear 1200ms both;
+  -moz-animation: fadeInUp 300ms linear 1200ms both;
+  -o-animation: fadeInUp 300ms linear 1200ms both;
+  -ms-animation: fadeInUp 300ms linear 1200ms both;
+  animation: fadeInUp 300ms linear 1200ms both;
+}
+
+.mfiles-logo {
+    margin-top: 30px;
+}
+
+#KBC {
+  position: relative;
+}
+
+.no-margin {
+  margin: 0;
+  padding: 0;
+}
+
+#KBC .carousel .carousel-content {
+  margin-top: 150px;
+}
+
+#KBC .carousel .slide-margin{
+  margin-top: 140px;
+}
+
+#KBC .carousel h2 {
+  color: #4e4e4e;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#KBC .carousel .btn-slide {
+  padding: 8px 20px;
+  background: #4495b8;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+#KBC .carousel .btn-slide:hover{
+  background: #edda5c;
+  color: #000;
+}
+
+#KBC .carousel .slider-img{
+  text-align: right;
+  position: absolute;
+}
+
+
+#KBC .carousel .item {
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height:850px;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+}
+
+#KBC .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+
+#KBC .carousel .item.active {
+  opacity: 1;
+  -webkit-transition: opacity ease-in-out 500ms;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 1;
+}
+
+#KBC .prev,
+#KBC .next {
+  position: absolute;
+  top: 50%;
+  background-color: #4495b8;
+  color: #fff;
+  display: inline-block;
+  margin-top: -25px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 5;
+}
+
+#KBC .prev:hover,
+#KBC .next:hover {
+  background-color: #000;
+}
+
+#KBC .prev {
+  left: 10px;
+}
+
+#KBC .next {
+  right: 10px;
+}
+
+#KBC .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  margin: 0 15px 0 0;
+  position: relative;
+}
+
+#KBC .carousel-indicators li:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #FFF;
+  left: -3px;
+  top: -3px;
+}
+
+#KBC .carousel-indicators .active{
+  width: 20px;
+  height: 20px;
+  background-color: #edda5c;
+   margin: 0 15px 0 0;
+   border: 1px solid #edda5c;
+   position: relative;
+}
+
+#KBC .carousel-indicators .active:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background: #edda5c;
+  border: 1px solid #edda5c;
+  left: -3px;
+  top: -3px;
+}
+
+#KBC .active .animation.animated-item-1 {
+  -webkit-animation: fadeInUp 300ms linear 300ms both;
+  -moz-animation: fadeInUp 300ms linear 300ms both;
+  -o-animation: fadeInUp 300ms linear 300ms both;
+  -ms-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+
+#KBC .active .animation.animated-item-2 {
+  -webkit-animation: fadeInUp 300ms linear 600ms both;
+  -moz-animation: fadeInUp 300ms linear 600ms both;
+  -o-animation: fadeInUp 300ms linear 600ms both;
+  -ms-animation: fadeInUp 300ms linear 600ms both;
+  animation: fadeInUp 300ms linear 600ms both;
+}
+
+#KBC .active .animation.animated-item-3 {
+  -webkit-animation: fadeInUp 300ms linear 900ms both;
+  -moz-animation: fadeInUp 300ms linear 900ms both;
+  -o-animation: fadeInUp 300ms linear 900ms both;
+  -ms-animation: fadeInUp 300ms linear 900ms both;
+  animation: fadeInUp 300ms linear 900ms both;
+}
+
+#KBC .active .animation.animated-item-4 {
+  -webkit-animation: fadeInUp 300ms linear 1200ms both;
+  -moz-animation: fadeInUp 300ms linear 1200ms both;
+  -o-animation: fadeInUp 300ms linear 1200ms both;
+  -ms-animation: fadeInUp 300ms linear 1200ms both;
+  animation: fadeInUp 300ms linear 1200ms both;
+}
+
+.KBC-logo {
+    margin-top: 30px;
+    margin-bottom: -60px;
+}
 /*************************
 ********* Portfolio CSS ******
 **************************/
@@ -1797,7 +2193,7 @@ padding-bottom: 30px;
 
 .plan {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
 }
 
 .pricing-area ul {
@@ -1838,13 +2234,13 @@ padding-bottom: 30px;
 .pricing-area .heading-five, 
 .pricing-area .heading-six, 
 .pricing-area .heading-seven {
-  margin-left: -10px
+  margin-left: 0px;
 }
 
 
 .pricing-area .heading-one, 
 .pricing-area .price-one .plan-action .btn-primary {
-  background: #e24f43
+  background: #4495b8
 }
 
 .pricing-area .heading-two, 
@@ -1882,7 +2278,7 @@ padding-bottom: 30px;
  background: #fafafa 
 }
 
-.pricing-area .heading-one h3:before {
+/*.pricing-area .heading-one h3:before {
   border-color: #bf4539 transparent transparent;
 }
 
@@ -1922,7 +2318,7 @@ padding-bottom: 30px;
   top: 78px;
   width: 0;
   z-index: -999;
-}
+}*/
 
 .small-pricing h3:after {
   height:94px;
