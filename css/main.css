@@ -18,25 +18,28 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600; 
+  font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   color:#4e4e4e;
 }
 
 h1{
-  font-size: 36px;
-  color:#fff;
+  font-size: 45px;
+  color:#4e4e4e;
+    text-transform: uppercase;
 }
 
 h2{
   font-size: 20px;
+    text-transform: uppercase;
 }
 
 h3{
-  font-size: 16px;
+  font-size: 18px;
   color: #787878;
   font-weight: 400;
   line-height: 24px;
+    text-transform: uppercase;
 }
 
 h4{
@@ -44,7 +47,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #4495b8;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -52,7 +55,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #d43133;
+  color: #4495b8;
 }
 
 hr {
@@ -386,6 +389,9 @@ input.search-form:hover {
   color: #fff;
 }
 
+#main-slider .carousel h1 {
+ color: #fff;
+}
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
   background: #4495b8;
@@ -490,9 +496,9 @@ input.search-form:hover {
 #main-slider .carousel-indicators .active{
   width: 20px;
   height: 20px;
-  background-color: #edda5c;
+  background-color: #2DB82D;
    margin: 0 15px 0 0;
-   border: 1px solid #edda5c;
+   border: 1px solid #2DB82D;
    position: relative;
 }
 
@@ -502,8 +508,8 @@ input.search-form:hover {
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  background: #edda5c;
-  border: 1px solid #edda5c;
+  background: #2DB82D;
+  border: 1px solid #2DB82D;
   left: -3px;
   top: -3px;
 }
@@ -541,10 +547,15 @@ input.search-form:hover {
 }
 
 #feature {
-  background: #f2f2f2;
+  background-image: url(/images/server.jpg);
+    background-size: cover;
+    color: #fff;
   padding-bottom: 40px;
 }
 
+#feature h2{
+ color: #fff;
+}
 .features{
   padding: 0;
 }
@@ -556,6 +567,11 @@ input.search-form:hover {
 
 .feature-wrap h2{
   margin-top: 10px;
+    font-size: 25px;
+}
+
+.feature-wrap h3{
+ color: #fff;
 }
 
 .feature-wrap .pull-left {
@@ -571,24 +587,20 @@ input.search-form:hover {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #c52d2f;
+  color: #2DB82D;
   border: 3px solid #ffffff;
-  box-shadow: inset 0 0 0 5px #f2f2f2;
-  -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
   -o-transition: 500ms;
   transition: 500ms;
-  float: left;
+  float: center;
   margin-right: 25px;
 }
 
 .feature-wrap i:hover {
-  background: #c52d2f;
+  background: #2DB82D;
   color: #fff;
-  box-shadow: inset 0 0 0 5px #c52d2f;
-  -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
-  border: 3px solid #c52d2f;
+  border: 3px solid #2DB82D;
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
@@ -669,10 +681,11 @@ input.search-form:hover {
 }
 
 .services-wrap {
-  padding: 40px 30px;
-  background: #fff;
+  padding:40px 30px;
+  background: #ececec;
   border-radius: 4px;
   margin: 0 0 40px;
+
 }
 
 .services-wrap h3 {
@@ -684,9 +697,7 @@ input.search-form:hover {
   margin-right: 20px;
 }
 
-#middle {
-  background: #f2f2f2;
-}
+
 
 .skill h2{
   margin-bottom: 25px;
@@ -1554,11 +1565,7 @@ ul.social_icons li  a i{
   padding: 10px;
 }
 
-.text-left {
-  color: #FFFFFF;
-  font-size: 12px;
-  margin-top: 15px;
-}
+
 
 /************************
 ********* What We Do CSS *****
@@ -1593,8 +1600,13 @@ padding-bottom: 30px;
  margin-bottom: 40px;
 }
 .solution {
- background: #f5f5f5;
+    background-image: url(/images/busy-office.jpg);
    padding: 40px;
+    color: #fff;
+}
+
+.solution-header {
+  color: #fff;
 }
 .solution-icon{
  width: 64px;
@@ -1650,19 +1662,36 @@ padding-bottom: 30px;
   padding:0;
 }
 
-
+#ECM {
+    background-image: url(/images/documents.jpg);
+    background-size: cover;
+}
 .ECM-icon {
     width: 300px;
     height: auto;
 }
+
+#Success img{
+  width: 250px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#Success h2{
+    font-size: 25px;
+}
 /*************************
 ********* Solutions ********
 **************************/
+li {
+ list-style-type: none;
+}
+
 .brochure {
     font-size: 18px;
 }
 
-#Datum360, #KBC, #Mfiles {
+#Datum360, #KBC, #Mfiles, #AMS, #Success {
  background: #f5f5f5;
 }
 
@@ -2409,15 +2438,15 @@ font-size: 55px;
 
 .gmap-area .gmap iframe {
   border-radius: 50%;
-  height: 280px;
-  width: 300px;
+  height: 490px;
+  width: 490px;
 }
 
 .gmap{
     border: 10px solid #f6f5f0;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
@@ -3034,4 +3063,15 @@ shortcodes page css
 #footer ul > li {
   display: inline-block;
   margin-left: 15px;
+}
+
+/*************************MODAL**************/
+.modal-heading{
+      padding: 9px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/******************What we do*************/
+.btn-wwd{
+    margin-top: 60px;
 }
