@@ -367,7 +367,36 @@ input.search-form:hover {
 *******Home Page******
 **************************/
 
+.btn-home {
+  padding: 10px 40px;
+  background: #2DB82D;
+  color: #fff;
+  border-radius: 40px;
+  margin-top: 25px;
+  display: inline-block;
+}
 
+.btn-home:hover{
+  background: #4495b8;
+  color: #fff;
+}
+
+.main-text {
+    margin-top: 50px;
+    padding-top: 110px;
+}
+
+#partner .services-wrap {
+  padding:15px 15px;
+  background-color: #fefefe;
+  border-radius: 0px;
+  margin: 0 0 40px;
+}
+
+#partner img {
+ width: 300px;
+    height: auto;
+}
 #main-slider {
   position: relative;
 }
@@ -393,17 +422,17 @@ input.search-form:hover {
  color: #fff;
 }
 #main-slider .carousel .btn-slide {
-  padding: 8px 20px;
-  background: #4495b8;
+  padding: 10px 40px;
+  background: #2DB82D;
   color: #fff;
-  border-radius: 4px;
+  border-radius: 40px;
   margin-top: 25px;
   display: inline-block;
 }
 
 #main-slider .carousel .btn-slide:hover{
-  background: #edda5c;
-  color: #000;
+  background: #4495b8;
+  color: #fff;
 }
 
 #main-slider .carousel .slider-img{
@@ -547,7 +576,7 @@ input.search-form:hover {
 }
 
 #feature {
-  background-image: url(/images/server.jpg);
+  background-image: url(../images/server.jpg);
     background-size: cover;
     color: #fff;
   padding-bottom: 40px;
@@ -966,11 +995,12 @@ a.accordion-toggle  i{
   border-bottom: 0 none;
 }
 
-#clients {
-   margin-top: -40px;
+#client {
+   background-image: url(../images/Clients'.jpg);
+    background-size: cover;
 }
 #partner {
-  background: url(../images/partners/Fluor_construction_site_Shuaiba,_Kuwait.png) 50% 50% no-repeat;
+  background: url(../images/partner_edited.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1026,29 +1056,29 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
-.about-us {
+.about_us {
   margin-top: 110px;
   margin-bottom: -110px;
 }
 
-#about-us h1{
+#about_us h1{
     color: #4e4e4e;
     font-size: 50px;
     font-weight: 600;
 
 }
 
-.about-us h2, 
+.about_us h2,
 .skill_text h2 {
   color:#4e4e4e;
   font-size: 30px;
   font-weight: 600;
 }
 
-#about-us h2{
+#about_us h2{
  font-size:30px;
 }
-.about-us p {
+.about_us p {
   color:#4e4e4e;
 }
 
@@ -1663,7 +1693,7 @@ padding-bottom: 30px;
 }
 
 #ECM {
-    background-image: url(/images/documents.jpg);
+    background-image: url(../images/documents.jpg);
     background-size: cover;
 }
 .ECM-icon {
