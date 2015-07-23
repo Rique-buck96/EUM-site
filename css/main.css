@@ -626,11 +626,61 @@ input.search-form:hover {
   margin-right: 25px;
 }
 
-.feature-wrap i:hover {
+/*.feature-wrap i:hover {
   background: #2DB82D;
   color: #fff;
   border: 3px solid #2DB82D;
+}*/
+
+#service-index {
+  background-image: url(../images/server.jpg);
+    background-size: cover;
+    color: #fff;
+  padding-bottom: 40px;
 }
+.service-wrap {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.service-wrap h2{
+  margin-top: 10px;
+    font-size: 25px;
+}
+
+.service-wrap h3{
+ color: #4e4e4e;
+}
+
+.service-wrap .pull-left {
+  margin-right: 25px;
+}
+
+.service-wrap i{
+  font-size: 48px;
+  height: 110px;
+  width: 110px;
+  margin: 3px;
+  border-radius: 0%;
+  line-height: 110px;
+  text-align:center;
+  background: #2DB82D;
+  color: #fff;
+  border: 3px solid #2DB82D;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+  float: center;
+  margin-right: 25px;
+}
+
+.service-wrap i:hover {
+  background: #4495b8;
+  color: #fff;
+  border: 3px solid #4495b8;
+}
+
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
@@ -996,13 +1046,18 @@ a.accordion-toggle  i{
 }
 
 #client {
-   background-image: url(../images/Clients'.jpg);
+   background-image: url(../images/Clients.jpg);
     background-size: cover;
+}
+
+#client h2 {
+    color: #fff;
 }
 #partner {
   background: url(../images/partner_edited.jpg) 50% 50% no-repeat;
   background-size: cover;
 }
+
 
 #partner {
   color: #fff;
