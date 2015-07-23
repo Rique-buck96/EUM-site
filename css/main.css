@@ -420,6 +420,7 @@ input.search-form:hover {
 
 #main-slider .carousel h1 {
  color: #fff;
+    letter-spacing: 10px;
 }
 #main-slider .carousel .btn-slide {
   padding: 10px 40px;
@@ -661,7 +662,7 @@ input.search-form:hover {
   height: 110px;
   width: 110px;
   margin: 3px;
-  border-radius: 0%;
+  border-radius: 100%;
   line-height: 110px;
   text-align:center;
   background: #2DB82D;
@@ -1046,7 +1047,7 @@ a.accordion-toggle  i{
 }
 
 #client {
-   background-image: url(../images/Clients.jpg);
+   background-image: url(../images/Clients.jpg) ;
     background-size: cover;
 }
 
