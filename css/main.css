@@ -1117,11 +1117,14 @@ a.accordion-toggle  i{
   margin-bottom: -110px;
 }
 
-#about_us h1{
-    color: #4e4e4e;
+#about_title h1{
+    color: #fff;
     font-size: 50px;
-    font-weight: 600;
 
+}
+
+#about_title {
+ background-image: url(../images/aboutus.jpg);
 }
 
 .about_us h2,
