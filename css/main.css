@@ -1119,22 +1119,38 @@ a.accordion-toggle  i{
 
 #about_title h1{
     color: #fff;
-    font-size: 65px;
-
+    font-size: 70px;
+    letter-spacing: 20px;
 }
 
 #about_title {
  background-image: url(../images/aboutus.jpg);
 }
 
+#vision {
+ background-image: url(../images/silhoutte_edited.jpg);
+    color: #fff;
+}
 
-
-
+#vision h2{
+ color:#fff;
+    padding-bottom: 30px;
+}
 
 #clients{
  background: #f5f5f5;
 }
 
+#careers {
+    background-image: url("../images/careers.jpg");
+    background-size: cover;
+}
+
+#careers h1 {
+ color: #fff;
+    letter-spacing: 25px;
+    font-size: 70px;
+}
 #carousel-slider {
   position: relative;
 }
@@ -1649,12 +1665,14 @@ ul.social_icons li  a i{
 /************************
 ********* What We Do CSS *****
 *************************/
-#Portfolio h1{
-    color: #4e4e4e;
-    font-size: 50px;
-    font-weight: 600;
-padding-bottom: 30px;
-    text-align: center;
+
+#What-we-do {
+ background-image: url("../images/modern-office_edited.jpg");
+    background-size: cover;
+}
+#What-we-do h1{
+color: #fff;
+    letter-spacing: 20px;
 }
 
 #Portfolio h2{
