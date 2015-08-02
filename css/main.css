@@ -616,9 +616,9 @@ input.search-form:hover {
   border-radius: 100%;
   line-height: 110px;
   text-align:center;
-  background: #ffffff;
-  color: #2DB82D;
-  border: 3px solid #ffffff;
+  background: #2DB82D;
+  color: ##fff;
+  border: 3px solid #2DB82D;
   -webkit-transition: 500ms;
   -moz-transition: 500ms;
   -o-transition: 500ms;
@@ -1697,9 +1697,9 @@ color: #fff;
  margin-bottom: 40px;
 }
 .solution {
-    background-image: url(/images/busy-office.jpg);
+    background-color: #f5f5f5;
    padding: 40px;
-    color: #fff;
+    color: #000;
 }
 
 .solution-header {
@@ -1768,8 +1768,10 @@ color: #fff;
     height: auto;
 }
 
+#Success
+
 #Success img{
-  width: 250px;
+  width: 150px;
     height: auto;
     margin-bottom: 30px;
 }
@@ -1781,7 +1783,7 @@ color: #fff;
 ********* Solutions ********
 **************************/
 li {
- list-style-type: none;
+
 }
 
 .brochure {
