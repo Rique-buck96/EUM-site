@@ -1133,11 +1133,13 @@ a.accordion-toggle  i{
 }
 
 #about_title {
- background-image: url(../images/aboutus.jpg);
+ background-image: url(../images/aboutus.jpg) ;
+    background-size: cover;
 }
 
 #vision {
  background-image: url(../images/silhoutte_edited.jpg);
+    background-size: cover;
     color: #fff;
 }
 
@@ -1777,8 +1779,14 @@ color: #fff;
     height: auto;
 }
 
+#ECM h2 {
+    color: #fff;
+    letter-spacing: 15px;
+    font-size: 40px;
+}
 #Success-header {
     background-image:url("../images/success_edited.jpg");
+    background-size: cover;
 }
 
 #Success-header h1 {
