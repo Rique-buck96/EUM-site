@@ -3199,3 +3199,8 @@ shortcodes page css
 .btn-wwd{
     margin-top: 60px;
 }
+
+.container .truncate{
+   display: none;
+    padding: 5px;
+}
